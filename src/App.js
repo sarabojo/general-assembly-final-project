@@ -8,10 +8,8 @@ const App = () => {
     <div>
       <h1>Sara's Final Project</h1>
       <ul className="flex-row">
-        {dataArray.map((data) => (
-          <Main key={data.id} />
-          // <SideBar />
-        ))}
+        <Main />
+        <SideBar />
       </ul>
     </div>
   )
