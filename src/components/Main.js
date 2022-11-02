@@ -2,16 +2,16 @@ import Dogs from './Dogs'
 
 const Main = (props) => {
   return (
-    <div>
+    <div className="main">
       <h1>Main Section</h1>
       <ul>
-        {props.dogs.map((data) => (
+        {props.data.map((datum) => (
           <Dogs
-            key={data.id}
-            rating={data.saras_rating}
-            friendly={data.friendly}
-            sheds={data.sheds}
-            trainability={data.easy_to_train}
+            key={datum.id}
+            rating={datum.saras_rating}
+            friendly={datum.friendly}
+            sheds={datum.sheds}
+            trainability={datum.easy_to_train}
           />
         ))}
       </ul>
