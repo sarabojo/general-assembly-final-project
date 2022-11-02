@@ -1,3 +1,4 @@
+import Dogs from './Dogs'
 const Main = () => {
   return (
     <div>

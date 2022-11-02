@@ -1,3 +1,4 @@
+import Ratings from './Ratings'
 const Dogs = () => {
   return (
     <div>

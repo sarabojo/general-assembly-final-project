@@ -1,7 +1,7 @@
 import './App.css'
 import data from './data.json'
-import SideBar from './components.SideBar'
-import Main from './components.Main'
+import SideBar from './components/SideBar'
+import Main from './components/Main'
 
 const App = () => {
   return (
