@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+    "breed_name": "golden",
+    "saras_ranking": 6,
+    "description": "Goldens can carry a raw egg in their mouth without breaking it.",
+    "friendly": true
+  },
+  {
+    "id": 13,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+    "breed_name": "husky",
+    "saras_ranking": 2,
+    "description": "Husky description - total diva.",
+    "friendly": false
+  },
+  {
+    "id": 25,
+    "backdrop_path": "https://image.tmdb.org/t/p/original/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+    "breed_name": "corgi",
+    "saras_ranking": 5,
+    "description": "Corgis are loaves of bread",
+    "friendly": false
+  }
+]
