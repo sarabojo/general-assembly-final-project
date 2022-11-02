@@ -1,9 +1,8 @@
-const Ratings = () => {
+const Ratings = (props) => {
   return (
-    <div>
+    <li>
       <h1>Ratings Section</h1>
-    </div>
+      <h5>{props.data.saras_rating}</h5>
+    </li>
   )
 }
-
-export default Ratings
