@@ -5,7 +5,9 @@
     "breed_name": "golden",
     "saras_ranking": 6,
     "description": "Goldens can carry a raw egg in their mouth without breaking it.",
-    "friendly": true
+    "friendly": true,
+    "sheds": false,
+    "easy_to_train": true
   },
   {
     "id": 13,
@@ -13,7 +15,9 @@
     "breed_name": "husky",
     "saras_ranking": 2,
     "description": "Husky description - total diva.",
-    "friendly": false
+    "friendly": false,
+    "sheds": false,
+    "easy_to_train": true
   },
   {
     "id": 25,
@@ -21,6 +25,8 @@
     "breed_name": "corgi",
     "saras_ranking": 5,
     "description": "Corgis are loaves of bread",
-    "friendly": false
+    "friendly": false,
+    "sheds": false,
+    "easy_to_train": true
   }
 ]
