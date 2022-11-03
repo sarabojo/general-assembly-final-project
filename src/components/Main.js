@@ -3,7 +3,7 @@ import Dogs from './Dogs'
 const Main = (props) => {
   return (
     <div className="main">
-      <h1>The Stack-Ranked Top 25 Dogs</h1>
+      <h1></h1>
       {props.data.map((datum) => (
         <Dogs
           key={datum.id}
