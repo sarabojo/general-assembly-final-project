@@ -5,8 +5,8 @@ import Main from './components/Main'
 
 const App = () => {
   return (
-    <div>
-      <h1>Sara's Final Project</h1>
+    <div className="body">
+      <h1></h1>
       <Main data={data} />
       <SideBar />
     </div>

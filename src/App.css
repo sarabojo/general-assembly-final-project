@@ -1,19 +1,77 @@
 body {
   margin: 0;
 }
+/* 
+* {
+  box-sizing: border-box; 
+  } */
 
-.flex-row {
+/* nav { 
   display: flex;
-  min-height: 100vh;
+  padding: 30px 0;
+  margin: 0px;
+  background-color: yellow;
+  height: 30px;
+  font-family:'Courier New', Courier, monospace;
+  flex-direction: row;
+  /* justify-content: space-around; need to figure this out
+  justify-content: space-between;} */
+  /* font-size: 30;
+  font-style: oblique;
+  color: #FFFFFF;
+  align-content: center;
+} */ 
+
+
+
+.body {background-color: grey;
+  margin: 0px;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr 70px;
+  grid-gap: 50px;
+
 }
 
+/* .flex-row {
+  display: flex;
+  min-height: 100vh;
+} */
+
+/* .flex-ctr {
+  display: flex;
+  min-height: 100vh;
+} */
+
 .side-bar {
-  background: url("https://i.imgur.com/wMCrFBQ.jpg") center;
-  border-right: 5px solid #333333;
-  color: #333333;
-  width: 30vw;
+  background: center;
+  border-right: 200px solid #200f7f;
+  color: #0a090a;
+  width: 0px;
+}
+
+
+
+.dog-info {
+  border: 4px solid #333333;
+  box-shadow: 10px 10px 5px #969696;
+  width: 70%;
+  height: 500px;
+  margin: 1.5em auto;
+  border-radius: 6px;
 }
 
 .main {
   text-align: center;
+  color: #121293;
+  /* background-color: #d31b1b66; */
 }
+
+
+ .rating {
+  background-color: #00000066;
+  color: #fefbf2;
+  padding: 4px;
+  margin: 250px;
+} 

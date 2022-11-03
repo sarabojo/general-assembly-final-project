@@ -1,7 +1,7 @@
 const Ratings = (props) => {
   return (
-    <div>
-      <h1>Ratings Section</h1>
+    <div className="rating">
+      <h3>Rank:</h3>
       <h5>{props.rating}</h5>
     </div>
   )
