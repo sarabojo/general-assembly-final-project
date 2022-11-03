@@ -6,16 +6,14 @@
 
 nav { 
   display: flex;
-  padding: 30px 0;
-  margin: 0px;
+  padding: 30px 30px;
+  margin: 10px;
   background-color: lightblue;
-  height: 30px;
   font-family:'Courier New', Courier, monospace;
   flex-direction: row;
   justify-content: space-around; 
-  justify-content: space-between;
-  font-size: 30;
-  font-style: oblique;
+  font-size: 100;
+  font-style: arial;
   color: #FFFFFF;
   align-content: center;
 } 
@@ -24,7 +22,7 @@ nav {
 
 .body {background-color: #ffffff;
   margin: 0px;
-  display:grid; 
+  display: grid; 
   /* display: flex; */
   height: 100vh;
   grid-template-columns: 200px 1fr;
@@ -52,10 +50,15 @@ nav {
 .main {
   text-align: center;
   color: #121293;
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  /* grid-template-rows: 20% 20% 20% 20% 20%; */
+  grid-area: 5/10/15;
+   /* margin: 1px; */
+  /* display: flex; */
   /* justify-content: space-around; */
-  align-items: flex-start;
-  flex-direction: column;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
   /* background-color: #d31b1b66; */
 }
 
@@ -64,7 +67,7 @@ nav {
   box-shadow: 1px 1px 5px #969696;
   width: 70%;
   height: 500px;
-  margin: 1em auto;
+  margin: 1.5em auto;
   border-radius: 20px;
 }
 
@@ -72,6 +75,10 @@ nav {
  .rating {
   background-color: #00000066;
   color: #fefbf2;
+  width: 50%;
   padding: 5px;
   margin: 230px;
+  justify-content: space-around; 
+  /* align-content: center; */
+  display: flex;
 } 
