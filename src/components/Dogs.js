@@ -3,12 +3,10 @@ const Dogs = (props) => {
   return (
     <div>
       <h1>Dogs Component</h1>
-      <li>
-        <img src={props.data.photo} alt={props.data.breed_name} />
-        <h3>Dog Breed: {props.data.breed_name} </h3>
-        <h5>Breed Description: {props.data.description}</h5>
-        <Ratings rating={props.data.saras_rating} />
-      </li>
+      <img src={props.photo} alt={props.breed_name} />
+      <h3>Dog Breed: {props.breed_name} </h3>
+      <h5>Breed Description: {props.description}</h5>
+      <Ratings rating={props.saras_rating} />
     </div>
   )
 }

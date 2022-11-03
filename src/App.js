@@ -7,10 +7,8 @@ const App = () => {
   return (
     <div>
       <h1>Sara's Final Project</h1>
-      <ul className="flex-row">
-        <Main className="main" />
-        <SideBar className="side-bar" />
-      </ul>
+      <Main data={data} />
+      <SideBar />
     </div>
   )
 }

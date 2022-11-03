@@ -1,9 +1,9 @@
 const Ratings = (props) => {
   return (
-    <li>
+    <div>
       <h1>Ratings Section</h1>
-      <h5>{props.datum.saras_rating}</h5>
-    </li>
+      <h5>{props.rating}</h5>
+    </div>
   )
 }
 
