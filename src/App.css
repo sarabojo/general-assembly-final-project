@@ -20,14 +20,13 @@ nav {
 
 
 
-.body {background-color: #ffffff;
+.body {background-color: #fffff;
   margin: 0px;
-  display: grid; 
-  /* display: flex; */
-  height: 100vh;
+  display: flex; 
   grid-template-columns: 200px 1fr;
   grid-template-rows: 60px 1fr 70px;
-  grid-gap: 5px;
+  /* grid-gap: 5px; */
+    /* height: 100vh; */
 
 }
 /* .flex-row {
@@ -35,15 +34,10 @@ nav {
   min-height: 100vh;
 } */
 
-/* .flex-ctr {
-  display: flex;
-  min-height: 100vh;
-} */
-
-.side-bar {
-  background: center;
-  border-right: 200px solid #ffffff;
-  /* color: #0a090a; */
+.side-bar
+  /* background: center; */
+ { border-right: 200px solid #cc0f0f;
+  color: #121293;
   width: 0px;
 }
 
@@ -51,15 +45,15 @@ nav {
   text-align: center;
   color: #121293;
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+   grid-template-columns: 30% 30% 30%;
+  grid-area: 5/10/15; 
   /* grid-template-rows: 20% 20% 20% 20% 20%; */
-  grid-area: 5/10/15;
-   /* margin: 1px; */
-  /* display: flex; */
+   margin: 1px;
   /* justify-content: space-around; */
   /* align-items: flex-start; */
+  /* display: flex; */
   /* flex-direction: column; */
-  /* background-color: #d31b1b66; */
+  background-color: #d31b1b66;
 }
 
 .dog-info {

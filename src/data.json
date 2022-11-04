@@ -2,9 +2,9 @@
   {
     "id": 1,
     "photo": "https://image.tmdb.org/t/p/original/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+    "description": "test copy",
     "breed_name": "golden",
     "saras_rating": 1,
-    "description": "Goldens can carry a raw egg in their mouth without breaking it.",
     "friendly": true,
     "sheds": false,
     "easy_to_train": true

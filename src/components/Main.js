@@ -12,6 +12,7 @@ const Main = (props) => {
           friendly={datum.friendly}
           sheds={datum.sheds}
           trainability={datum.easy_to_train}
+          description={datum.description}
         />
       ))}
     </div>
