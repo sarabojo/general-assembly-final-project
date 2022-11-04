@@ -7,6 +7,7 @@ const Main = (props) => {
       {props.data.map((datum) => (
         <Dogs
           key={datum.id}
+          photo={datum.photo}
           breed_name={datum.breed_name}
           rating={datum.saras_rating}
           friendly={datum.friendly}

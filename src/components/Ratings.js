@@ -1,8 +1,7 @@
 const Ratings = (props) => {
   return (
     <div className="rating">
-      <h3>Rank:</h3>
-      <h5>{props.rating}</h5>
+      <h3>Rank:{props.rating}</h3>
     </div>
   )
 }
