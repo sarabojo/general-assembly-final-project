@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div className="body">
       <h1></h1>
-      <Main data={data} />
       <SideBar />
+      <Main data={data} />
     </div>
   )
 }
