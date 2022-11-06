@@ -1,5 +1,4 @@
 import Dogs from './Dogs'
-// import Ratings from './Ratings'
 
 const Main = (props) => {
   return (

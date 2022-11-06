@@ -4,9 +4,7 @@ const SideBar = () => {
       <h2>Additional Resources</h2>
       <div>
         <h3>
-          <a href="https://www.akc.org/most-popular-breeds/">
-            American Kennel Club Homepage
-          </a>
+          <a href="https://www.akc.org/">American Kennel Club Homepage</a>
         </h3>
 
         <h3>
