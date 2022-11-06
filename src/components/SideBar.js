@@ -2,8 +2,19 @@ const SideBar = () => {
   return (
     <div className="side-bar">
       <h2>Additional Resources</h2>
-      <h3>American Kennel Club Homepage</h3>
-      <h3>Westminster Dogshow Homepage</h3>
+      <div>
+        <h3>
+          <a href="https://www.akc.org/most-popular-breeds/">
+            American Kennel Club Homepage
+          </a>
+        </h3>
+
+        <h3>
+          <a href="https://www.westminsterkennelclub.org/">
+            Westminster Dogshow Home
+          </a>
+        </h3>
+      </div>
     </div>
   )
 }
