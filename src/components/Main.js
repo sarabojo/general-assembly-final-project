@@ -17,9 +17,6 @@ const Main = (props) => {
           rating={datum.saras_rating}
         />
       ))}
-      {/* {props.data.map((datum) => (
-        <Ratings key={datum.id} rating={datum.saras_rating} />
-      ))} */}
     </div>
   )
 }
